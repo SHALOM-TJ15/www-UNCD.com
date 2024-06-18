@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.info {
+    color: red;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+    display: none;
+    padding: 20px;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.information {
+    flex: 1 1 250px;
+    padding: 10px;
+    background-color: rgb(166, 180, 35);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.stage {
+    flex: 1 1 250px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.theory {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.puzzle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.piece {
+    flex: 1 1 250px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+blockquote {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+
+.question {
+    font-style: italic;
+    color: #666;
+}
+
+.overview {
+    line-height: 1.6;
+}
+
+/* Additional styles for section background colors */
+
+#stages {
+    background-color: #ffe0b2;
+}
+
+#theories {
+    background-color: #c8e6c9;
+}
+
+#implications {
+    background-color: #bbdefb; 
+}
+
+#conclusion {
+    background-color: #f8bbd0; 
+}
+
+/* Additional styles for stage background colors */
+
+#infancy {
+    background-color: #ffb74d; 
+}
+
+#toddlerhood {
+    background-color: #4db6ac; 
+}
+
+#preschool {
+    background-color: #7986cb;
+}
+
+#school-age {
+    background-color: #f06292; 
+}
